@@ -1,3 +1,6 @@
+# Calculadora em Python
+# Branch: feature/basic-operations
+
 def soma(a, b):
     return a + b
 
@@ -41,5 +44,7 @@ def calculadora():
     except ValueError:
         print("Erro: Entrada inválida. Por favor, insira números corretamente.")
 
-# Inicia a calculadora
-calculadora()
+# Inicia o programa
+# Commit: "Finaliza implementação da calculadora básica."
+if __name__ == "__main__":
+    calculadora()
